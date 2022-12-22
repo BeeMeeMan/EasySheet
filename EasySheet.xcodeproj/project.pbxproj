@@ -11,6 +11,7 @@
 		8ACCB305295445EE003C9BF5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACCB304295445EE003C9BF5 /* ContentView.swift */; };
 		8ACCB307295445EF003C9BF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ACCB306295445EF003C9BF5 /* Assets.xcassets */; };
 		8ACCB30A295445EF003C9BF5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8ACCB309295445EF003C9BF5 /* Preview Assets.xcassets */; };
+		8ACCB31129544773003C9BF5 /* EasySheetScreenCover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACCB31029544773003C9BF5 /* EasySheetScreenCover.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		8ACCB304295445EE003C9BF5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8ACCB306295445EF003C9BF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8ACCB309295445EF003C9BF5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8ACCB31029544773003C9BF5 /* EasySheetScreenCover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasySheetScreenCover.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				8ACCB302295445EE003C9BF5 /* EasySheetApp.swift */,
 				8ACCB304295445EE003C9BF5 /* ContentView.swift */,
+				8ACCB31029544773003C9BF5 /* EasySheetScreenCover.swift */,
 				8ACCB306295445EF003C9BF5 /* Assets.xcassets */,
 				8ACCB308295445EF003C9BF5 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				8ACCB305295445EE003C9BF5 /* ContentView.swift in Sources */,
 				8ACCB303295445EE003C9BF5 /* EasySheetApp.swift in Sources */,
+				8ACCB31129544773003C9BF5 /* EasySheetScreenCover.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +278,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,6 +307,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
